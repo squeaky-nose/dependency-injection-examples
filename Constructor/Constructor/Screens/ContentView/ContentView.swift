@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    // 👹 Can get messy
     @StateObject var viewModel = ContentViewModel(messageService: SequencedMessageService(messageBank: MessageBank()))
     
     var body: some View {

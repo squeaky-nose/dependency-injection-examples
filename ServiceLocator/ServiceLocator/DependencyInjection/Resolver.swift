@@ -14,10 +14,12 @@ class Resolver {
     var factoryDict: [String: () -> Any] = [:]
     
     private init() {
+        // ⚠️ Creating dependencies in constructor for simplicity. Not advisable.
         add(MessageService.self) {
             SequencedMessageService()
         }
         
+        // 💡 Resolved dependency can be a singleton too
         let sharedMessageBank = MessageBank()
         add(MessageBank.self) {
             sharedMessageBank

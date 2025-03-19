@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "8494C21B-00CD-4A89-8644-57935E7A66F3",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..\/Constructor\/Constructor.xcodeproj",
+        "identifier" : "85631AB32D81801100EA3C69",
+        "name" : "ConstructorTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/ServiceLocator\/ServiceLocator.xcodeproj",
+        "identifier" : "85631AB32D81801100EA3C69",
+        "name" : "ServiceLocatorTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:ExternalLibrary.xcodeproj",
+        "identifier" : "85631AB32D81801100EA3C69",
+        "name" : "ExternalLibraryTests"
+      }
+    }
+  ],
+  "version" : 1
+}

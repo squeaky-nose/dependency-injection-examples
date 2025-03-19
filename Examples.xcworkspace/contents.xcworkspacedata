@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:Constructor/Constructor.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ServiceLocator/ServiceLocator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:ExternalLibrary/ExternalLibrary.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TestPlan.xctestplan">
+   </FileRef>
+</Workspace>

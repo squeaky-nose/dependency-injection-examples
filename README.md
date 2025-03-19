@@ -1,3 +1,5 @@
+| <img src="Constructor/Constructor/Assets.xcassets/AppIcon.appiconset/constructor-light.png" alt="Constructor app icon" width="204" height="204"> | <img src="ServiceLocator/ServiceLocator/Assets.xcassets/AppIcon.appiconset/locator-light.png" alt="ServiceLocator app icon" width="204" height="204"> | <img src="ExternalLibrary/ExternalLibrary/Assets.xcassets/AppIcon.appiconset/external-light.png" alt="ExternalLibrary app icon" width="204" height="204"> |
+|-|-|-|
 #  Dependency Injection
 
 This repo contains examples for different techniques that can be used when performing dependency injection in an application written in Swift.
